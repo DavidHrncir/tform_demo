@@ -1,0 +1,8 @@
+jobs:
+ - name: weekly
+   targetName: dev
+   schedule: 0 0 * * 4
+   timeout: 30m
+   steps:
+     - name: run models
+       command: dbt run
