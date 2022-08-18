@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: ft_raw
+    database: fivetran_database
+    schema: ft_demo_ss__dbo
+    tables:
+      - name: factinventory
+    tags:
+      - ft1
