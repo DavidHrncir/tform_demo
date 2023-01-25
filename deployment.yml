@@ -2,7 +2,7 @@ jobs:
  - name: agg_sf_opps_6hrs
    targetName: dev
    schedule: 0 */6 * * *
-   timeout: 30m
+   timeout: 25m
    steps:
      - name: run models
        command: dbt run --select agg_salesforce__opportunities
