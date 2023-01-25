@@ -1,9 +1,8 @@
 jobs:
  - name: agg_sf_opps_6hrs
+   target: dev
    schedule: 0 */6 * * *
    timeout: 30m
    steps:
      - name: run models
        command: dbt run -s agg_salesforce__opportunities
-     - name: build docs
-       command: dbt docs generate
