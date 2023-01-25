@@ -1,10 +1,10 @@
 version: 2
 
 sources:
-  - name: ft_raw
-    database: fivetran_database
-    schema: ft_demo_ss__dbo
+  - name: hrncir_sf
+    database: davidhrncir_demo
+    schema: hrncir_01242023_sfdc
     tables:
-      - name: factinventory
+      - name: opportunity
     tags:
-      - ft1
+      - h_sfdc
