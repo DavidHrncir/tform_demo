@@ -1,6 +1,6 @@
 jobs:
  - name: agg_sf_opps_6hrs
-   target: dev
+   targetName: dev
    schedule: 0 */6 * * *
    timeout: 30m
    steps:
