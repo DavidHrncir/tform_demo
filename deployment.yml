@@ -6,3 +6,5 @@ jobs:
    steps:
      - name: run models
        command: dbt run --select agg_salesforce__opportunities
+     - name: build docs
+       command: dbt docs generate
