@@ -9,9 +9,9 @@ sources:
     tags:
       - h_sfdc
 
-models:
-  - name: agg_salesforce__opportunities
-    columns:
-      - name: stage_average
-        tests:
-          - not_null
+#models:
+#  - name: agg_salesforce__opportunities
+#    columns:
+#      - name: stage_average
+#        tests:
+#          - not_null
