@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: hrncir_sf
-    database: davidhrncir_demo
+    database: lab_fivetran_db
     schema: hrncir_01242023_sfdc
     tables:
       - name: opportunity
