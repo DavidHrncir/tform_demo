@@ -1,3 +1,0 @@
-packages:
-  - package: fivetran/salesforce
-    version: 0.8.0

@@ -1,17 +1,9 @@
 version: 2
 
 sources:
-  - name: hrncir_sf
-    database: lab_fivetran_db
-    schema: hrncir_01242023_sfdc
+  - name: hrncir_tpc
+    database: dh_snowflake_sample_data
+    schema: tpch_sf1
     tables:
-      - name: opportunity
-    tags:
-      - h_sfdc
-
-models:
-  - name: agg_salesforce__opportunities
-    columns:
-      - name: stage_average
-        tests:
-          - not_null
+      - name: lineitem
+      - name: orders

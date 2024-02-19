@@ -24,5 +24,5 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "target"
   - "dbt_packages"
 
-vars:
-    salesforce_schema: HRNCIR_01242023_SFDC
+# vars:
+    # salesforce_schema: HRNCIR_01242023_SFDC
